@@ -1,0 +1,73 @@
+
+/*all*/
+body{
+    background-color: darkslategray;
+}
+/*index*/
+.indextitle{
+    text-align: center;
+    position: center;
+    color: darkslategray;
+    font: bold 100px arial;
+    text-shadow: 2px 2px 5px orange;
+    
+   
+}
+.indexbody{
+    background-image: url(images/wall1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+.card{
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    top: 20%;
+    opacity: 50%;
+}
+.card:hover{
+    background-color: darkslategray; 
+    opacity: inherit;
+}
+
+/*home*/
+.cardhome{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.card-title{
+    color: black;
+}
+
+
+.card-body {
+    background-color: white;
+    
+}
+
+.card-text{
+    color: black; 
+}
+h1 {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.column{
+    float: left;
+    width: 50px;
+    padding: 5px;
+}
+
+.contenthome {
+    margin-left: 400px;
+    color: white;
+    border: 2px solid white;
+    max-width: 600px;
+}
+ 
