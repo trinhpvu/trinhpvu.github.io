@@ -40,7 +40,7 @@ body{
     margin-top: 20px;
     margin-left: 50px;
 }
-.card-title{
+.card-title-home{
     color: black;
 }
 
@@ -50,7 +50,7 @@ body{
     
 }
 
-.card-text{
+.card-text-home{
     color: black; 
 }
 .hometitle {
@@ -58,7 +58,7 @@ body{
     margin-top: 20px;
 }
 
-.column{
+.column-home{
     float: left;
     width: 50px;
     padding: 5px;
@@ -70,4 +70,21 @@ body{
     border: 2px solid white;
     max-width: 600px;
 }
- 
+
+
+.images-container{
+    float: left;
+    display:flex;
+    width:33.33%;
+}
+.images-container img{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.about-title{
+    color: white;
+}
+
+
+
